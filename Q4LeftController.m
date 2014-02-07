@@ -22,6 +22,8 @@
     
     self.view.frame = CGRectMake(0, 110, 100, 100);
     
+    self.title = @ "Left";
+    
     // Do any additional setup after loading the view.
     //set background color to red (the book says to do it in viewDidLoad as opposed to the initWithNibName but the quiz says to create viewDidAppear so I placed it here
     [[self view] setBackgroundColor:[UIColor redColor]];

@@ -23,6 +23,8 @@
     self.view.frame = CGRectMake (220,110,100,100);
     
     // Do any additional setup after loading the view.
+    //set title
+    self.title = @ "Right";
     
     //set background to green
     [[self view] setBackgroundColor: [UIColor greenColor]];
